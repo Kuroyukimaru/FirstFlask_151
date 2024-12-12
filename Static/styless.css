@@ -1,0 +1,47 @@
+body {
+    font-family: 'Creepster', cursive !important; /* Menggunakan font Creepster */
+    background-color: #181818 !important; /* Warna latar belakang gelap */
+    color: #e0e0e0 !important; /* Warna teks terang */
+    margin: 0 !important;
+    padding: 20px !important;
+}
+
+.container {
+    max-width: 600px !important;
+    margin: auto !important;
+    background: #2a2a2a !important; /* Warna latar belakang kontainer */
+    padding: 20px !important;
+    border-radius: 10px !important; /* Sudut yang lebih bulat */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8) !important; /* Bayangan yang lebih dramatis */
+    border: 1px solid #444 !important; /* Garis tepi gelap */
+}
+
+h1 {
+    text-align: center !important;
+    font-family: 'Creepster', cursive !important; /* Menggunakan font Creepster untuk judul */
+    color: #ffcc00 !important; /* Warna judul kuning */
+    margin-bottom: 20px !important; /* Jarak bawah judul */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px) !important;
+    padding: 10px !important;
+    margin: 10px 0 !important;
+    border: 1px solid #444 !important; /* Garis tepi gelap */
+    border-radius: 4px !important;
+    background-color: #3a3a3a !important; /* Latar belakang input gelap */
+    color: #e0e0e0 !important; /* Warna teks input terang */
+    font-family: 'Creepster', cursive !important; /* Menggunakan font Creepster untuk input */
+}
+
+button {
+    width: 100% !important;
+    padding: 10px !important;
+    background-color: #ffcc00 !important; /* Warna latar belakang tombol kuning */
+    color: black !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease, transform 0.3s ease !important; /* Transisi halus */
+    font-family: 'Creepster', cursive !important; /* Menggunakan font Creepster untuk tombol */
+}
